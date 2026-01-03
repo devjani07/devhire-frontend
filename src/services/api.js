@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // ✅ Use environment variable (Vercel) OR fallback to localhost (local dev)
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://api.vetechsolve.in/api';
 
 // Create axios instance
 const api = axios.create({
